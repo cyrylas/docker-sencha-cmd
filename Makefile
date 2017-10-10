@@ -1,5 +1,5 @@
-CMD_VER := 6.2.2
-CMD_VER_SHORT := 6
+CMD_VER := 6.5.1
+CMD_VER_SHORT := 6.5.1
 
 IMG := codekoala/sencha
 

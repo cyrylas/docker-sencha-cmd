@@ -12,4 +12,4 @@ Here's an example command for building the production version of your project.
         -u $(id -u):$(id -g) \
         -v $(pwd):/code \
         --workdir /code \
-        codekoala/sencha:6 app build
+        codekoala/sencha:6.5.1 app build

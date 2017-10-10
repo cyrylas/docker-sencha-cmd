@@ -9,6 +9,7 @@ Build Production App
 Here's an example command for building the production version of your project.
 
     docker run --rm \
+        --privileged \
         -u $(id -u):$(id -g) \
         -v $(pwd):/code \
         --workdir /code \
